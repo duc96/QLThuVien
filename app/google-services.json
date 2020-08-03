@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "451370707041",
+    "firebase_url": "https://quanlysach-ps10722.firebaseio.com",
+    "project_id": "quanlysach-ps10722",
+    "storage_bucket": "quanlysach-ps10722.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451370707041:android:53d10e8eaae1ee646fa220",
+        "android_client_info": {
+          "package_name": "com.example.lab1_bai1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451370707041-v3qdhh870fvha5bcfn292odv7cmgsngq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lab1_bai1",
+            "certificate_hash": "1a2b3df562f23487ea030eb22b81c74cb3da7d89"
+          }
+        },
+        {
+          "client_id": "451370707041-n9kpour81m7d0arj8dh3h97k3h11blfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8dUElQmao5-BQzdEA4FyJiGU3qcZvUxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451370707041-n9kpour81m7d0arj8dh3h97k3h11blfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

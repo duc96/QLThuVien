@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xamit">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMaLoai"
+        android:layout_margin="16dp"
+        android:hint="Mã loại"
+        android:textSize="23sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTenLoaiSach"
+        android:layout_margin="16dp"
+        android:hint="Tên loại sách"
+        android:textSize="23sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMoTa"
+        android:layout_margin="16dp"
+        android:hint="Mô tả"
+        android:textSize="23sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtViTri"
+        android:layout_margin="16dp"
+        android:hint="Vi trí"
+        android:textSize="23sp"
+        />
+</LinearLayout>

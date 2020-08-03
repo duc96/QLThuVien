@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/qlNguoiDung"
+        android:title="QUẢN LÝ NGƯỜI DÙNG"
+        android:icon="@drawable/ic_qlsach"
+        />
+
+    <item
+        android:id="@+id/qlLoaiSach"
+        android:title="QUẢN LÝ LOẠI SÁCH"
+        android:icon="@drawable/ic_stk"
+        />
+
+    <item
+        android:id="@+id/hoadon"
+        android:title="HÓA ĐƠN BÁN HÀNG"
+        android:icon="@drawable/ic_hoadon"
+        />
+
+    <item
+        android:id="@+id/thongke"
+        android:title="SÁCH BÁN CHẠY"
+        android:icon="@drawable/ic_thongke"
+        />
+
+    <item
+        android:id="@+id/thongtin"
+        android:title="THÔNG TIN"
+        android:icon="@drawable/ic_infor"
+        />
+
+
+    <item
+        android:id="@+id/exit"
+        android:title="THOÁT"
+        android:icon="@drawable/ic_exit"
+        />
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maHDCT"
+        android:layout_margin="10dp"
+        android:text="ma hdct"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tenSach"
+        android:layout_margin="5dp"
+        android:text="ten sach"
+        android:textStyle="italic"
+        android:layout_below="@id/maHDCT"
+        android:textSize="23sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tenSach"
+        android:layout_margin="5dp"
+        android:id="@+id/tvsl"
+        android:text="so luong: "
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soLuong"
+        android:layout_below="@id/tenSach"
+        android:layout_toRightOf="@id/tvsl"
+        android:layout_margin="5dp"
+        android:text="so luong"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tenSach"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/tvdg"
+        android:text="don gia: "
+        android:layout_toRightOf="@id/soLuong"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/donGia"
+        android:text="don gia"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/tvdg"
+        android:layout_below="@id/tenSach"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtt"
+        android:text="tong tien: "
+        android:layout_below="@id/donGia"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/thanhTien"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thanhTien"
+        android:text="thanh tien"
+        android:layout_below="@id/donGia"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

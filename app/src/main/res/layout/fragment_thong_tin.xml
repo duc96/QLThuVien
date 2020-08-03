@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ThongTinFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/xamit">
+
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_book"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            />
+
+        <TextView
+            android:id="@+id/tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/im"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic|bold"
+            android:textSize="25sp"
+            android:text="Tên App: Quản lý Sách"
+            />
+
+        <TextView
+            android:id="@+id/tvphienban"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tit"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:text="Phiên bản: 15.5.02"
+            />
+
+        <TextView
+            android:id="@+id/tvcty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvphienban"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:text="Cty TNHH MTV One for All"
+            />
+
+        <TextView
+            android:id="@+id/tvgiamdoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvcty"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:text="Giám đốc: Trần Văn Đức"
+            />
+
+        <TextView
+            android:id="@+id/tvma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvgiamdoc"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:text="Mã quốc tế: PS10722"
+            />
+
+        <TextView
+            android:id="@+id/tvccht"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvma"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:text="Công cụ hỗ trợ: Android Studio"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:textSize="14sp"
+            android:text="Ngày Update cuối: 29/02/2020"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+
+</FrameLayout>

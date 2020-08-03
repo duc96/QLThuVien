@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTenSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sách"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+    android:id="@+id/tvMaSach"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Mã sách"
+    android:textSize="17sp"
+    android:layout_marginLeft="20dp"
+    android:layout_below="@id/tvTenSach"
+    />
+    <TextView
+        android:id="@+id/tvMaLoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã loại"
+        android:textSize="17sp"
+        android:layout_below="@id/tvTenSach"
+        android:layout_marginRight="100dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/tvGiaBan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá bán"
+        android:textSize="17sp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tvMaSach"
+        />
+    <TextView
+        android:id="@+id/tvSoLuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số lượng"
+        android:textSize="17sp"
+        android:layout_marginRight="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvMaLoai"
+        />
+
+    <TextView
+        android:id="@+id/tvTacGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bao Ve"
+        android:textSize="17sp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/tvGiaBan"
+        />
+
+
+</RelativeLayout>
